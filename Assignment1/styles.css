@@ -1,0 +1,65 @@
+body {
+  margin-left: 2%;
+}
+
+div p {
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+div {
+  margin-top: 0.5em;
+}
+
+ul {
+  margin-left: 2%;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+#identify {
+  margin-left: 41%;
+}
+
+#identify p {
+  margin-left: -82%;
+  text-align: center;
+}
+
+
+.header {
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.label {
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 10px;
+  margin-left: 5%;
+  border-bottom: solid 2px;
+  width: 90%;
+}
+
+.first {
+  margin-left: 4%;
+}
+
+.end {
+  margin-left: 69%;
+}
+
+.sub {
+  position: relative;
+  left: 45%;
+  width: 10%;
+  height: 25%;
+  font-size: 15px;
+}
+
+.text {
+  font-family: Verdana;
+  font-weight: normal;
+  font-size: 10px;
+}

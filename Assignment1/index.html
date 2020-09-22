@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CV Template</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+  </head>
+  <body>
+    <form id="addForm" method="POST">
+      <div id="identify">
+        <label class="break">First Name: </label>
+        <input id="fname" type="text" name="fname" placeholder="First Name"> <br class="break">
+        
+        <label class="break" id="mid">Middle Name: </label>
+        <input id="mname" type="text" name="mname" placeholder="Middle Name"> <br class="break">
+        
+        <label class="break" id="last">Last Name: </label>
+        <input id="lname" type="text" name="lname" placeholder="Last Name"> <br class="break">
+
+        <label class="break" id="last">Gender: </label>
+        <select name="gender" id="gender">
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+
+        <br class="break">
+        
+        <label class="break">Postal Address: </label>
+        <input id="address" type="text" name="address" placeholder="Postal Address"> <br class="break">
+        
+        <label class="break">Phone Number: </label> 
+        <input id="number" type="number" name="number" placeholder="Phone Number"> <br class="break">
+        
+        <label class="break" id="nat">Nationality: </label>
+        <input id="nation" type="text" name="nation" placeholder="Nationality"> <br class="break">
+        
+        <label class="break">Email Address: </label>
+        <input id="email" type="text" name="email" placeholder="Email Address">
+        
+      </div>
+      </form>
+      <button id="submit" class="sub" type="button" name="done" onclick="finish()">SUBMIT</button>
+
+      <div>
+        <button id="edit" style="display: none; float: left; margin-left: -5%;" onclick="edit()" name="edit">Edit</button>
+        <button id="done" style="display: none;" onclick="doneclick()">Done</button>
+      </div>
+      
+
+      <div>
+        <p class="label">EDUCATION</p>
+        <div >
+          <p class="first header">Ashesi University <span class="end" style="margin-left: 75%;">Berekuso, Eastern Region</span> </p>
+          <p class="first header">BSc. Computer Science <span class="end" style="margin-left: 70%;">Expected Graduation Date: 2024 </span> </p>
+          <p class="first text">Cumulative GPA: 3.89/4.00 </p>
+        </div>
+
+        <div >
+          <p class="first header">Akosombo International School <span class="end"> Akosombo, Eastern Region</span> </p>
+          <p class="first header">*General Arts <span class="end" style="margin-left: 78.2%;"> Sept 2015 - June 2018</span> </p>
+        </div>
+
+      </div>
+
+      <div>
+        <p class="label">ACHIEVEMENT/AWARDS</p>
+        <div >
+          <p class="first header">The MasterCard Foundation Scholar Program Scholarship <span class="text">, Ashesi University College</span>
+            <span style="margin-left: 54%;"> 2020 - 2024 </span>
+           </p>
+        </div>
+
+        <div>
+          <p class="first header">*Dean's List <span class="text">, Ashesi University College</span>
+            <span style="margin-left: 72.8%;"> 2021 - 2022 </span>
+           </p>
+        </div>
+      </div>
+
+      <div>
+        <p class="label">WORK EXPERIENCE</p>
+        <div>
+          <p class="first header">ABC Children's Home<span class="text">- Cantonments, Accra</span>
+            <span style="margin-left: 68%;"> June 2022 - Present </span>
+           </p>
+           <p class="first header">Marketing Intern</p>
+           <ul class="text">
+             <li>Supervise the planning of the Annual Company Street Festival</li>
+             <li>Plan a charity event with the aim of raising $3000 to help provide shelter for street children</li>
+             <li>Update and manage the company's website (increased website traffic by 20%)</li>
+           </ul>
+        </div>
+
+        <div>
+          <p class="first header">XYZ Foundation<span class="text">- Dzorwulu, Accra</span>
+            <span style="margin-left: 71.5%;"> Dec 2021 - May 2022 </span>
+           </p>
+           <p class="first header">President</p>
+           <ul class="text">
+             <li>Managed club and presided over club activities and Editorial Meetings</li>
+             <li>Organized seminars involving key figures to dialogue on the role of leadership in Africa</li>
+             <li>Increased membership and developed club programs by 22% and 40% respectively</li>
+           </ul>
+        </div>
+
+        <div>
+          <p class="first header">Crisps Radio<span class="text">- Abuja, Nigeria</span>
+            <span style="margin-left: 75.7%;"> June - Aug 2022 </span>
+           </p>
+           <p class="first header">Marketing Executive</p>
+           <ul class="text">
+             <li>Assisted the Marketing Manager to expand the market share of company</li>
+             <li>Wrote jingles, Live Presenter Mentions (LPMs) and promotional announcements</li>
+             <li>Produced an elite talk show dubbed (Excellent Talk with Excellent Personalities)</li>
+           </ul>
+        </div>
+      </div>
+
+      <div>
+        <p class="label">PROJECTS AND RESEARCH</p>
+
+        <div>
+          <p class="first header">Green Hills Consortium
+            <span style="margin-left: 75.2%;"> Nov 2022 - Aug 2023 </span>
+           </p>
+           <p class="first header">Jambo - Team Member</p>
+           <ul class="text">
+             <li>Assisted a global team in designing and implementing a business model to provide digital access to 5.5 billion
+             people living on less than $10 per day using a model that offers free mobile phone service</li>
+           </ul>
+        </div>
+      </div>
+
+      <div>
+        <p class="label">CO-CURRICULAR ACTIVITIES</p>
+
+        <div>
+          <p class="first header">Ashesi University College<span class="text">, Ashesi Robotics Experience</span>
+            <span style="margin-left: 66%;"> Nov - Dec 2022 </span>
+           </p>
+           <p class="first header">Mentor</p>
+           <ul class="text">
+             <li>Mentored 5 high school students for 1 week and helped them design a Robotic Tour Guide</li>
+             <li>Supervised and evaluated group projects and weekly tasks</li>
+           </ul>
+        </div>
+
+        <div>
+          <p class="first header">Ashesi University College<span class="text">, Berekuso Math Community Project</span>
+            <span style="margin-left: 85%;"> Jan - Dec 2023 </span>
+           </p>
+           <p class="first header">Tutor</p>
+           <ul class="text">
+             <li>Tutored students in Berekuso to help them improve upon their math skills</li>
+             <li>Organized a weekly math quiz for the students and awarded the winning team with books and stationary</li>
+           </ul>
+        </div>
+
+      </div>
+
+      <div class="">
+        <p class="label">SKILLS</p>
+
+        <div >
+          <ul class="text">
+            <li>Advanced Proficiency in French</li>
+            <li>Programming Languages (Proficient in Java, C++, SQL, HTML, CSS, PHP, and JavaScript)</li>
+            <li>Graphic designing using software such as Indigo Studio, Balsamic, Pencil, Lumzy</li>
+          </ul>
+        </div>
+
+      </div>
+        <p class="label">REFERENCES</p>
+
+        <div >
+          <p class="first text">Available upon request</p>
+        </div>
+
+        <div >
+          <p class="first text">*WASSCE - West African Senior School Certificate Examination</p>
+          <p class="first text">*Dean's List - Awarded to students with GPA of 3.5 and above</p>
+        </div>
+      <div class="">
+
+      </div>
+
+    <script src="index.js"></script>
+    
+  </body>
+</html>
